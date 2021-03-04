@@ -14,16 +14,30 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Altura"
-        android:textSize="45sp"
-        android:paddingBottom="40sp"
+        android:text="Peso"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Seu Peso ex. 81,36"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Peso"
-        android:textSize="45sp"
+        android:text="Altura"
 
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Sua Altura ex. 1,82"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         />
 
 </LinearLayout>
